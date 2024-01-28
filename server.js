@@ -15,7 +15,10 @@ app.use(bp.urlencoded({extended:true}))
 
 // app.use(interceptor.authUser)
 
-var userdata = [{'name':'kartik'}]
+var userdata = [{
+         uname:'manager',
+         email:'abc@gmail.com'
+     }]
 var uid = 1
 app.use(cors())
 app.use(express.static('public'))
